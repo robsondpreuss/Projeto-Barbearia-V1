@@ -40,20 +40,20 @@ nav a:hover{
 }
 
 main{
-    width: 100%;  
-    margin: auto;  
+    text-align: center;
+    width: 100%;     
 }  
 
 form{  
-    margin: auto;
-    width: 90%;  
-  }
+    display: inline-block;
+    width: 100%;      
+}
 
 label{
-      display: block;
-      font-size: 20x;
-      padding: 5px;
-      font-weight: bold;
+    display: block;
+    font-size: 20x;
+    padding: 5px;
+    font-weight: bold;
 }
 
 .fieldset-horario{
@@ -67,9 +67,9 @@ select{
 }
 
 .input-padrao{
-      margin: 0 0 20px;
-      padding: 10px 25px;
-      width: 50%;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 25%;
 }
 
 .checkbox{
@@ -122,7 +122,7 @@ footer {
     font-weight: bolder;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
   .caixa{
     width: auto;
   }
@@ -138,5 +138,55 @@ footer {
   nav{
     position: static;
     text-align: center;
-  } 
+  }
+
+  .input-padrao{
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+    .input-padrao{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .input-padrao{
+        margin: 0 0 20px;
+        padding: 10px 25px;
+        width: 70%;
+    }
+
+    .enviar{
+        width: 70%;
+        padding: 15px 0;
+        background: #bbbbbb;
+        color: #000;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .enviar{
+        width: 70%;
+        padding: 15px 0;
+        background: #bbbbbb;
+        color: #000;
+        font-weight: bold;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+    }
 }
