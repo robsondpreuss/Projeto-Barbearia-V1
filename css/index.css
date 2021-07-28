@@ -34,9 +34,8 @@ nav li a{
 }
 
 nav a:hover{
-  color:blue;
+  color:rgb(28, 86, 153);
   transition: 400ms;
-  text-decoration: underline;
 }
 
 .banner{
@@ -51,9 +50,10 @@ nav a:hover{
 }
 
 .principal p{
-  margin: 0 1rem 1rem;
+  width: 80%;
+  margin: 1rem auto;
   line-height: 1.5;
-  text-align: justify;
+  text-align: center;
 }
 
 .principal strong{
@@ -61,9 +61,9 @@ nav a:hover{
 }
 
 .utensilios{
-  width: 120px;
+  width: 140px;
   float: left;
-  margin: 0 20px 20px 0;  
+  margin: 0 20px 20px 20px;  
 }
 
 .titulo-principal{
@@ -72,8 +72,7 @@ nav a:hover{
   margin: 0 0 2rem;
   clear: left;
   font-weight: bold;
-  text-shadow: 2px 2px 5px blue;
-  /* color: rgba(18, 35, 133, 0.377); */
+  text-shadow: 2px 2px 5px rgb(28, 86, 153);
 }
 
 .titulo-principal:before{
@@ -173,5 +172,11 @@ footer {
 
   .lista-beneficios, .img-beneficios{
     width: 100%;
-  }  
+  }
+
+  .principal p{
+    width: 90%;
+    margin: 0.5rem;
+    text-align: justify;
+  } 
 }

@@ -34,7 +34,7 @@ nav li a{
 }
 
 nav a:hover{
-  color:blue;
+  color:rgb(28, 86, 153);
   transition: 400ms;
   text-decoration: none;
 }
@@ -60,20 +60,23 @@ nav a:hover{
 .produtos li:hover{
   border-color: rgb(28, 86, 153);
   background: #bbbbbb;
+  font-weight: bold;
 }
 
 .produtos li:active{
   border-color: red;
 }
 
-.produtos li:hover h2{
-  font-size: 30px;
-  font-weight: bold;
+.produtos img:hover{
+ transition: .2s;
+}
+
+.produtos img:hover{
+  transform: scale(1.1) translateY(-5px);
 }
 
 .produto-descricao{
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 18px;  
 }
 
 .produto-preco{

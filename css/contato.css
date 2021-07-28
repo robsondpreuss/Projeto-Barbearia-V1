@@ -34,7 +34,7 @@ nav li a{
 }
   
 nav a:hover{
-    color:blue;
+    color:rgb(28, 86, 153);
     transition: 400ms;
     text-decoration: none;
 }
@@ -90,7 +90,7 @@ select{
 }
 
 .enviar:hover{
-    background: blue;
+    background: rgb(28, 86, 153);
     color: #fff;
     transition: 1s;
 }
