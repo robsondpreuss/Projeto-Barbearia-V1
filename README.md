@@ -3,7 +3,7 @@
  
  *HTML\
  *CSS\
- *Responsivo\
+ *Responsivo
  
  [LINK DO SITE](https://robsondpreuss.github.io/Projeto-Barbearia-V1/)
 
