@@ -1,9 +1,9 @@
 # Projeto-Barbearia-V1
  Primeiro versão do site da Barbearia Contoso.
  
- *HTML
- *CSS
- *Responsivo
+ *HTML 
+ *CSS 
+ *Responsivo 
  
  [LINK DO SITE](https://robsondpreuss.github.io/Projeto-Barbearia-V1/)
 
