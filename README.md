@@ -1,7 +1,7 @@
 # Projeto-Barbearia-V1
  Primeiro versão do site da Barbearia Contoso.
  
- *HTML\ 
+ *HTML\
  *CSS\
  *Responsivo\
  
