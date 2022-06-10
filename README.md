@@ -1,8 +1,11 @@
 # Projeto-Barbearia-V1
- Primeira versão do site da Barbearia do Contoso.
+ Primeira versão do site Barber Shop.
+ 
+ Primeiro Projeto desenvolvido com a turma do Técnico em Informática do Senac - Santa Rosa.
  
  *HTML\
  *CSS\
+ *JS\
  *Responsivo
  
  [LINK DO SITE](https://robsondpreuss.github.io/Projeto-Barbearia-V1/)
