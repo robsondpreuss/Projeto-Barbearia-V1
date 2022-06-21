@@ -12,7 +12,6 @@
 
  _**Créditos para os canais do youtube e prataforma de cursos de onde os projetos foram baseados.**_
 
-* [Code Masters](https://www.youtube.com/channel/UCZExGK9sEYMwdrHuG0BZyiQ)
 * [Kenzie Academy](https://www.youtube.com/channel/UC6rcCbDzhVoIm1V7WnwPDIQ)
 * [Rocketseat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg)
 * [Bonieky Lacerda](https://www.youtube.com/user/bonieky)
