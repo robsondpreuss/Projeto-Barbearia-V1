@@ -1,5 +1,5 @@
 # Projeto-Barbearia-V1
- Primeira versão do site Barber Shop.
+ Primeira versão do projeto Barber Shop.
  
  Primeiro Projeto desenvolvido com a turma do Técnico em Informática do Senac - Santa Rosa.
  
@@ -10,7 +10,7 @@
  
  [LINK DO SITE](https://robsondpreuss.github.io/Projeto-Barbearia-V1/)
 
- _**Créditos para os canais do youtube, de onde os projetos foram baseados.**_
+ _**Créditos para os canais do youtube e prataforma de cursos de onde os projetos foram baseados.**_
 
 * [Code Masters](https://www.youtube.com/channel/UCZExGK9sEYMwdrHuG0BZyiQ)
 * [Kenzie Academy](https://www.youtube.com/channel/UC6rcCbDzhVoIm1V7WnwPDIQ)
