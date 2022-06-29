@@ -1,7 +1,7 @@
 # Projeto-Barbearia-V1
  Primeira versão do projeto Barber Shop.
  
- Primeiro Projeto desenvolvido com a turma do Técnico em Informática do Senac - Santa Rosa.
+ Projeto desenvolvido com a turma do Técnico em Informática do Senac - Santa Rosa - 2022.
  
  *HTML\
  *CSS\
