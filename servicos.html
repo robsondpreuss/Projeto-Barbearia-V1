@@ -17,8 +17,7 @@
     <title>A Barbearia do Contoso - Since 2022</title>
 </head>
 <body>
-
-   <header>
+    <header>
         <div class="container">                     
                 <img class="img-logo" src="src/img/logo.png" alt="Logo barbearia do contoso">           
         </div>
@@ -31,23 +30,36 @@
     </nav>
 
     <main>
-            <form action="">
-                <label for="nome">Nome</label>
-                <input type="text" name="" id="nome" placeholder="Nome" tabindex="1" required>
+        <section class="servicos">
+            <div class="servico">
+                <p class="title">Cabelo</p>
+                <img src="src/img/cabelo.png" alt="">
+                <p class="description">Cortes na tesoura ou máquina.</p>
+                <p class="price">R$ 30,00</p>
+            </div>
 
-                <label for="email">E-mail</label>
-                <input type="email" name="" id="email" placeholder="E-mail" tabindex="3" pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required>
+            <div class="servico">
+                <p class="title">Barba</p>
+                <img src="src/img/barba.png" alt="">
+                <p class="description">Aparar ou desenho da barba.</p>
+                <p class="price">R$ 20,00</p>
+            </div>
+
+            <div class="servico">
+                <p class="title">Cabelo + Barba</p>
+                <img src="src/img/cabelo+barba.png" alt="">
+                <p class="description">Pacote completo de cabelo e barba.</p>
+                <p class="price">R$ 45,00</p>
+            </div>
+        </section>
+
+        <section class="produtos">
+                <h2>Venha conhecer nossa linha de produtos</h2>               
+                <a href="#" rel="noopener noreferrer">Produtos</a>
+                <p style="color:red; font-weight: bold">(LINK PARA O PROJETO QUE ESTÁ EM DESENVOLVIMENTO... BOOTSTRAP)</p>
                 
-                <label for="telefone">Telefone</label>
-                <input type="tel" name="" pattern="[0-9]*$" title="Digite Somente números!" tabindex="4" id="telefone"placeholder="(XX)XXXXX-XXXX" required>
-
-                <label for="mensagem">Mensagem</label>
-                <textarea name="" id="mensagem" cols="40" rows="10" tabindex="2"></textarea>
-
-                <button type="submit">ENVIAR</button>
-            </form>
-
-    </main>   
+        </section>
+    </main>
 
     <footer>
         <div class="container">

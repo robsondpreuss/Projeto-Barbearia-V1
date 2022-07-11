@@ -11,12 +11,12 @@ header .container {
     padding: 30px 0px;
 }
 
-header .container img {
-    width: 300px;
+header .container .img-logo {
+    width: 250px;
 }
 
 nav {
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -42,53 +42,68 @@ main {
     margin-top:20px;
 }
 
-.imgname {
-   height: 300px;
-   background-image: url(../img/banner.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+#primeira {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h2 {
+#primeira .container {
+    padding: 20px;
+}
+
+#primeira .div-visitante {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#primeira #nome-visitante {
     font-size: 45px;
     background-color: rgba(255, 255, 255, 0.677);
     border-radius: 5px;
     padding: 15px;
     text-align: center;
+    font-weight: bold;
 }
 
-.textos {
-    padding: 30px 0px;
-    width: 800px;
-    margin: auto;
+#segunda .container {
+    padding: 20px;
     text-align: center;
 }
 
-.titulo {
-    font-size: 22px;
+#segunda .titulo {
+    font-size: 30px;
     margin: 10px 0;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgb(180, 48, 48);
 }
 
-.paragrafo {
-    font-size: 18px;
-    line-height: 22px;
-    margin: 15px 0;
+#segunda .paragrafo {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 20px auto 0px auto;
+    max-width: 800px;
 }
 
-.textos span {
+#segunda .paragrafo span {
     font-weight: bold;
+}
+
+#segunda .paragrafo .missao {
+    font-size: 28px; 
+    font-weight:unset;
 }
 
 #servicos {
     background-image: url(../img/beneficios.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 30px 0px;
+}
+
+#servicos .container {
+    padding: 20px;
 }
 
 #servicos .itens {
@@ -110,7 +125,6 @@ h2 {
 
 #servicos .title-beneficios {
     display: flex;
-    align-items: stretch;
     justify-content: space-around;
 }
 
@@ -169,51 +183,16 @@ h2 {
     background-position: center;
 }
 
-footer {
-    background: linear-gradient(180deg,rgb(255, 255, 255) 0%, rgba(78,78,78,1) 100%);    
-}
 
-footer .container {
-    margin: 0 100px;
-    padding: 30px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer .container .logo {
-    width: 200px;
-}
-
-footer .midias {
-    width: 320px;
+/*============ SERVIÇOS ===========*/
+.servicos {
     display: flex;
     justify-content: space-evenly;
+    margin: 70px 0;
+    gap: 40px 0px
 }
 
-footer .midias a {
-    text-decoration: none;
-    transition: 0.3s;
-    display: inline-block;
-}
-
-footer .midias a:hover {
-    transform: translateY(-15px);
-}
-
-footer .midias img {
-    width: 50px;
-}
-
-/*============ PRODUTO ===========*/
-
-.produtos {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 100px 0;
-}
-
-.produtos .produto{
+.servicos .servico{
     width: 250px;
     border: 2px solid rgb(173, 131, 131);
     text-align: center;
@@ -221,7 +200,17 @@ footer .midias img {
     padding: 15px;
 }
 
-.produtos .produto:hover{
+.servicos .servico .title{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.servicos .servico .price{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.servicos .servico:hover{
     background-color: rgb(184, 183, 183);
     font-weight: bold;
     font-style: italic;
@@ -229,14 +218,46 @@ footer .midias img {
     cursor: pointer;
 }
 
-.produtos .produto:active {
+.servicos .servico:active {
     border-color: rgb(169, 174, 246);
 }
 
-.produtos .produto img:hover {
+.servicos .servico img:hover {
     transition: .9s;
     transform: scale(1.1) translateY(-5px);
 }
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0px;
+    margin-bottom: 50px;
+}
+
+.produtos h2 {
+    font-size: 33px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.produtos a {
+    background-color: rgb(173, 131, 131);
+    padding: 10px 50px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.produtos a:hover {
+    color:#000;
+    background-color: rgb(197, 66, 66);
+    font-weight: 600;
+    box-shadow: 5px 3px 20px rgb(173, 131, 131);
+}
+
+/*============ CONTATO ===========*/
 
 main form {
     display: flex;
@@ -290,22 +311,60 @@ main form button:hover {
     box-shadow: 5px 3px 20px rgb(173, 131, 131);
 }
 
+/*============ FOOTER ===========*/
+
+footer {
+    background: linear-gradient(180deg,rgb(255, 255, 255) 0%, rgba(78,78,78,1) 100%);    
+}
+
+footer .container {
+    margin: 0 100px;
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .logo {
+    width: 200px;
+}
+
+footer .midias {
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .midias a {
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+footer .midias a:hover {
+    transform: translateY(-15px);
+}
+
+footer .midias img {
+    width: 50px;
+}
+
 @media (max-width:768px) {
     .textos{
         width: unset;
     }
 
-    .produtos {
+    .servicos {
         flex-wrap: wrap;
         align-content: center;
-    }
-
-    .produto {
-        margin-top: 30px;
     }
 }
 
 @media (max-width:540px){
+    header .container .img-logo {
+        width: 200px;
+    }
+
     nav {
         flex-direction: column;
         width: unset;
@@ -313,7 +372,10 @@ main form button:hover {
     }
 
     nav a {
-        margin-bottom: 10px;
+        max-width: 300px;
+        width: 300px;
+        margin: 10px auto 0px auto;
+        padding: 10px 0px;
     }
 
     #servicos .itens {
